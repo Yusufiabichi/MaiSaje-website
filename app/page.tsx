@@ -40,14 +40,14 @@ export default function Home() {
                 <i className="ri-leaf-line text-white text-xl"></i>
               </div>
               <span className="text-2xl font-bold text-green-800 font-['Pacifico']">Mai Saje</span> */}
-              <Image 
-                src="./logo.png" 
-                alt='Hakassa logo' 
+              <Image
+                src="./logo.png"
+                alt='Hakassa logo'
                 width={150}
                 height={100}
-                />
+              />
             </div>
-            
+
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               <a href="#home" className="text-gray-700 hover:text-green-600 font-medium">Home</a>
@@ -57,7 +57,7 @@ export default function Home() {
             </nav>
 
             {/* Mobile Menu Button */}
-            <button 
+            <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden w-8 h-8 flex items-center justify-center"
             >
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="container mx-auto px-4 pt-24 pb-16 min-h-screen flex items-center">
           <div className="w-full max-w-4xl">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Mai Saje <span className="text-green-400">General</span><br/>
+              Mai Saje <span className="text-green-400">General</span><br />
               <span className="text-blue-400">Enterprises</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
@@ -96,12 +96,12 @@ export default function Home() {
               Providing clean table water, nutritious parboiled rice, and healthy livestock products to households and businesses across Nigeria with quality, trust, and reliability.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#products" 
-                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
+              <a href="#products"
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 View Products
               </a>
-              <a href="#contact" 
-                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-full font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
+              <a href="#contact"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-full font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 Contact Us
               </a>
             </div>
@@ -116,7 +116,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About Mai Saje</h2>
             <div className="w-24 h-1 bg-green-600 mx-auto mb-8"></div>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Our Mission</h3>
@@ -138,7 +138,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <img 
+              <img
                 src="https://readdy.ai/api/search-image?query=Nigerian%20agricultural%20company%20team%20working%20in%20modern%20facility%20with%20water%20processing%20equipment%20rice%20storage%20and%20livestock%20management%20professional%20workers%20in%20clean%20uniforms%20quality%20control%20processes%20agricultural%20technology&width=600&height=400&seq=about-img&orientation=landscape"
                 alt="Mai Saje Team"
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
@@ -162,7 +162,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Water Product */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <img 
+              <img
                 src="./water.jpg"
                 alt="Mai Saje Table Water"
                 className="w-full h-64 object-cover object-top"
@@ -181,7 +181,7 @@ export default function Home() {
 
             {/* Rice Product */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <img 
+              <img
                 src="https://readdy.ai/api/search-image?query=Nigerian%20parboiled%20rice%20grains%20in%20traditional%20packaging%20bag%20with%20golden%20brown%20color%20high%20quality%20stone%20free%20rice%20agricultural%20product%20local%20processing%20facility%20rice%20fields%20in%20background%20professional%20product%20photography&width=400&height=300&seq=rice-product&orientation=landscape"
                 alt="Mai Saje Parboiled Rice"
                 className="w-full h-64 object-cover object-top"
@@ -200,7 +200,7 @@ export default function Home() {
 
             {/* Livestock Product */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <img 
+              <img
                 src="https://readdy.ai/api/search-image?query=healthy%20cattle%20goats%20chickens%20and%20poultry%20on%20Nigerian%20farm%20green%20pastures%20livestock%20farming%20modern%20agricultural%20facility%20healthy%20animals%20grazing%20professional%20farm%20management%20agricultural%20photography&width=400&height=300&seq=livestock-product&orientation=landscape"
                 alt="Mai Saje Livestock & Poultry"
                 className="w-full h-64 object-cover object-top"
@@ -425,7 +425,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
-                    <p className="text-gray-600">Mai Saje General Enterpresis<br/>Yakasai, Kano, Nigeria</p>
+                    <p className="text-gray-600">Mai Saje General Enterpresis<br />Yakasai, Kano, Nigeria</p>
                   </div>
                 </div>
 
@@ -435,7 +435,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">+234 903 819 9818<br/>+234 708 914 9731</p>
+                    <p className="text-gray-600">+234 903 819 9818<br />+234 708 914 9731</p>
                   </div>
                 </div>
 
@@ -445,12 +445,12 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">info@maisaje.com<br/>sales@maisaje.com</p>
+                    <p className="text-gray-600">info@maisaje.com<br />sales@maisaje.com</p>
                   </div>
                 </div>
 
                 <div className="mt-8">
-                  <a 
+                  <a
                     href="https://wa.me/2349038199818"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -535,6 +535,11 @@ export default function Home() {
               © 2024 Mai Saje General Enterprises. All rights reserved. | Proudly Nigerian 🇳🇬
             </p>
           </div>
+        </div>
+        <div className='flex items-center justify-center mt-5'>
+          <Link href="https://yusufia-portfolio.vercel.app/" target="_blank" className="text-gray-400 hover:text-white text-sm cursor-pointer">
+            Developed by Yusufia Bichi
+          </Link>
         </div>
       </footer>
     </div>
