@@ -3,6 +3,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,10 +36,16 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
                 <i className="ri-leaf-line text-white text-xl"></i>
               </div>
-              <span className="text-2xl font-bold text-green-800 font-['Pacifico']">Mai Saje</span>
+              <span className="text-2xl font-bold text-green-800 font-['Pacifico']">Mai Saje</span> */}
+              <Image 
+                src="./logo.png" 
+                alt='Hakassa logo' 
+                width={150}
+                height={100}
+                />
             </div>
             
             {/* Desktop Navigation */}
@@ -156,7 +163,7 @@ export default function Home() {
             {/* Water Product */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <img 
-                src="https://readdy.ai/api/search-image?query=packaged%20bottled%20water%20bottles%20in%20clear%20plastic%20packaging%20with%20blue%20labels%20clean%20modern%20bottling%20facility%20in%20background%20Nigerian%20water%20production%20NAFDAC%20approved%20pure%20drinking%20water%20commercial%20photography%20professional%20product%20shot&width=400&height=300&seq=water-product&orientation=landscape"
+                src="./water.jpg"
                 alt="Mai Saje Table Water"
                 className="w-full h-64 object-cover object-top"
               />
@@ -418,7 +425,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
-                    <p className="text-gray-600">Mai Saje Industrial Complex<br/>Kano State, Nigeria</p>
+                    <p className="text-gray-600">Mai Saje General Enterpresis<br/>Yakasai, Kano, Nigeria</p>
                   </div>
                 </div>
 
@@ -428,7 +435,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">+234 803 123 4567<br/>+234 805 987 6543</p>
+                    <p className="text-gray-600">+234 903 819 9818<br/>+234 708 914 9731</p>
                   </div>
                 </div>
 
@@ -444,7 +451,7 @@ export default function Home() {
 
                 <div className="mt-8">
                   <a 
-                    href="https://wa.me/2348031234567"
+                    href="https://wa.me/2349038199818"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold flex items-center space-x-2 w-fit cursor-pointer whitespace-nowrap"
@@ -496,7 +503,7 @@ export default function Home() {
                 <a href="#" className="w-10 h-10 bg-gray-700 hover:bg-pink-600 rounded-full flex items-center justify-center cursor-pointer">
                   <i className="ri-instagram-line"></i>
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-700 hover:bg-green-600 rounded-full flex items-center justify-center cursor-pointer">
+                <a href="https://wa.me/2349038199818" className="w-10 h-10 bg-gray-700 hover:bg-green-600 rounded-full flex items-center justify-center cursor-pointer">
                   <i className="ri-whatsapp-line"></i>
                 </a>
               </div>
